@@ -1,6 +1,6 @@
 {
   "name": "bdclidemo",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "custom cli demo",
   "main": "index.js",
   "bin": {
@@ -10,15 +10,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "demo", "cli"
+    "demo",
+    "cli"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/inquirer": "^8.1.3",
     "chalk": "^4.0.0",
     "commander": "^10.0.0",
     "download-git-repo": "^3.0.2",
-    "@types/inquirer": "^8.1.3",
+    "fs-extra": "^11.1.0",
     "inquirer": "^8.0.0"
   }
 }
