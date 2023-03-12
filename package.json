@@ -1,7 +1,7 @@
 {
   "name": "bdclidemo",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "custom cli demo",
   "main": "index.js",
   "bin": {
     "mycli": "index.js"
@@ -9,7 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "demo", "cli"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
